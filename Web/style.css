@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    padding: 10px;
+    height: 800px;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  }
+ 
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+
+  }
+
+
+  a:link {
+    color: #000;
+    text-decoration: none;
+   }
+
+   a:active{
+     color:#fff;
+   }
+
+   a:visited{
+    color:#000;
+  }
+
+  a:hover{
+    color:#fff;
+  }
+   
+li {
+    margin-right:0px;
+    list-style-type: none;
+    border: 1px solid #000;
+    text-decoration: none;
+    padding: 15px 100px;
+    transition: all 0.3s linear 0s;
+    }
+    
+    li:hover {
+      color: #fff;
+      background: #000;
+      text-decoration: none;
+     }
+
+     li:active {
+      color: #fff;
+      text-decoration: none;
+     }
+
+     li:visited {
+      color: #000;
+      text-decoration: none;
+     }
+
+    
+
+    ul li:nth-child(3) {
+    padding: 4.7px 116px;
+    background-color: #fff;
+    }
+
+.container { 
+    background-color: white;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+.container-2 { 
+  background-color: white;
+  border: 1px solid #000;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-5 { 
+ 
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+hr{
+  width: 80%;
+  margin-top: -40px;
+  
+}
+
+.foto{
+    background-color: white;
+    margin-top: -110px;
+    position: relative;
+}
+
+.star{
+    margin-bottom:-20px;
+}
+
+button{
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 24px;
+    background-color: #fff;
+    transition: all 0.3s linear 0s;
+}
+
+button:hover {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+ }
+
+.div-8 {
+    background-color: white;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+  }
+.div-9 {
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Times New Roman", sans-serif;
+    margin-top: -120px;
+}
+
+h1{
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+    text-align: left;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+ }
+
+ h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: bold;
+ }
+
+ h4{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.estrela{
+    margin-bottom: -20px;
+}
+
+  .colunas{
+      margin-top: 50px;
+  }
+
+  .colunas:after { /*clear float*/
+    content: "";
+    display: table;
+    clear: both;
+   }
+  
+  .section {
+    float: left;
+    width: 50%;
+  
+    box-sizing: border-box;
+  }
+
+.curriculo{
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+  }
+
+  .curriculo span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .curriculo span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5px;
+    transition: 0.5s;
+  }
+  
+  .curriculo:hover span {
+    padding-right: 25px;
+
+  }
+  
+  .curriculo:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  @media (max-width: 1200px) { /*breakpoint*/
+    .section {
+      float: none;
+      width: auto;
+    }
+
+    .foto{
+        position: relative;
+        height: 520px; 
+        width: 426px;
+        margin-top:-40px;
+    }
+
+    .curriculo{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        
+    }
+  }
+
+  @media (max-width: 720px) {
+    .div-9 {
+      font-family: "Times New Roman", sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+      margin-top: -60px;
+    }
+
+    .foto{
+        position: relative;
+        height: 410px; 
+        width: 326px;
+        margin-top:-40px;
+    }
+
+    button{
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    
+  }
+
+  .container-3 {
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    box-sizing: border-box;
+   
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+   
+    line-height: 0;
+
+  }
+  
+  .box > img {
+    width: 100%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 2.8vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    height: 1vh;
+    line-height: 1.6;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+  
+  }
+
+ 
